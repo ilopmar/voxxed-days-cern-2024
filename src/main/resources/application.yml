@@ -45,5 +45,5 @@ spring:
 spring:
   docker:
     compose:
-      enabled: false
+      enabled: false # set it to true so Spring Boot automatically start the containers
       lifecycle-management: start_only
